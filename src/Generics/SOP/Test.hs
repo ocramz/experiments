@@ -20,7 +20,7 @@ testT2 = T2 B (Left 42)
 
 -- | encoded "
 -- testT2enc :: SOP I '['[T1, Either Int Char]]
-testT2enc = from testT2
+-- testT2enc = from testT2
 
 
 -- baz xs ys = hcliftA2 p eq xs ys where
